@@ -18,7 +18,7 @@ public class Quick {
             }
             arr[empty] = arr[j];
             empty = j;
-            while (i < j; arr[empty] > arr[i]){
+            while (i < j && arr[empty] > arr[i]){
                 i++;
             }
             arr[empty] = arr[i];
