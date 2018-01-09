@@ -29,6 +29,8 @@ public class Merge {
                 temp[record++] = arr[m++];
             }
         }
+
+
         while (left < mid){
             temp[record++] = arr[left++];
         }
